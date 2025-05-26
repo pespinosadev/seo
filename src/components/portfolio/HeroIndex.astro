@@ -9,7 +9,7 @@ const  {
   profileImage = "/images/pablo-espinosa.webp",
   profileAlt = "Foto de perfil Pablo Espinosa SEO Técnico",
   profileLink = "/about-me",
-  profileTitle = "SEO Técnico Developer IA",
+  profileTitle = "SEO Técnico & Developer IA",
   profileName = "Pablo Espinosa",
   githubLink = "https://github.com/pespinosadev/seo",
   githubText = "No es magia. Es velocidad bien programada.",
@@ -55,7 +55,7 @@ const  {
       <div
         class="flex h-full w-7/12 flex-col justify-center gap-4 p-4 max-md:w-full max-md:gap-2"
       >
-        <span
+        <!-- <span
           class="relative inline-flex items-center text-xs font-semibold leading-0 dark:text-white text-blacktext max-md:font-medium max-sm:justify-center"
         >
           <span
@@ -63,33 +63,34 @@ const  {
           ></span>
           Disponible
         </span>
-
+        -->
         <h1
           class="text-4xl font-black leading-none text-blacktext  dark:text-white max-xl:text-3xl max-lg:text-2xl  max-sm:text-center"
         >
           {profileName} 👋
         </h1>
         <p
-          class="mb-0 text-lg font-semibold leading-8 text-blacktext dark:text-gray-200 max-xl:text-base"
+          class="mb-0 text-lg font-light leading-8 text-blacktext dark:text-gray-200 max-xl:text-base"
         >
           <span
             class="bg-gradient-to-r from-riptide-500 to-mint-500 bg-clip-text font-black text-transparent   dark:from-riptide-300 dark:to-mint-200"
             >{profileTitle}</span
-          > with <span
+          > con más de <span
             class="bg-gradient-to-r from-riptide-500 to-mint-500 bg-clip-text font-black text-transparent  dark:from-riptide-300 dark:to-mint-200"
-            >8 years of experience</span
-          >, passionate about development, technology, and coffee that sparks ideas. I love bringing digital projects to life. 🚀☕
+            >5 años</span
+          > dando visibilidad, velocidad y estructura para que las webs funcionen y posicionen.
+          Código limpio, decisiones inteligentes y como combustible un buen café.
         </p>
 
         <div class="flex gap-4 max-sm:flex-col max-sm:items-center">
           <Button
             link={"mailto:" + email}
-            text="Contact Me"
+            text="Contacto"
             iconName="envelope"
           />
           <Button
             link={profileLink}
-            text="About Me"
+            text="Sobre mí"
             iconName="person"
             variant="dark"
           />
@@ -104,7 +105,7 @@ const  {
       class="col-start-2 row-start-2 flex flex-col gap-3 rounded-2xl border border-emerald-50 bg-gradient-to-r from-riptide-200 to-mint-200 p-8 dark:border-zinc-800 dark:border-2 dark:bg-zinc-800 dark:bg-gradient-radial dark:from-riptide-500 dark:to-mint-500 max-md:gap-0 max-xl:p-5 max-md:p-4 max-lg:gap-1 md:col-start-4"
     >
       <div class="flex flex-col-reverse items-start gap-4 max-md:gap-2">
-        <Heading text="Beyond the Code" level={3} />
+        <Heading text="Más allá del código" level={3} />
       </div>
 
       <div class="overflow-y-auto">
@@ -128,7 +129,7 @@ const  {
               class="relative flex h-full flex-col gap-8 p-8 dark:before:[background-image:radial-gradient(circle,_rgba(13,188,130)_0,_rgba(1,45,34)_100%)] before:[background-image:radial-gradient(circle,_rgba(95,255,202)_0,_rgba(144,253,210)_100%)] before:absolute before:left-30 before:bottom-30 before:h-[30%] before:aspect-square before:rounded-full before:blur-3xl before:opacity-90 before:transition before:z-0 max-xl:p-5 max-md:p-4 xl:before:bottom-10"
             >
               <div class="z-2">
-                <Heading text="Do you like this site's design?" level={3}/>
+                <Heading text="Descubre mis desarrollos en GitHub" level={3}/>
               </div>
 
               <Icon

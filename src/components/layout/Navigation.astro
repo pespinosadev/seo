@@ -6,17 +6,17 @@ const { items = [] }: { items: (keyof typeof menu)[] } = Astro.props as {
 };
 
 const menu = {
-  about: { name: "About Me", path: "/about-me" },
+  about: { name: "Sobre mí", path: "/about-me" },
   blog: { 
     name: "Blog", 
     path: "/blog/",
     dropdown: [
-      { name: "All Posts", path: "/blog/posts/" },
+      { name: "Todas las publicaciones", path: "/blog/posts/" },
     ]
   },
-  home: { name: "Home", path: "/#home" },
-  experience: { name: "Experience", path: "/#experience" },
-  projects: { name: "Projects", path: "/#projects" },
+  home: { name: "Inicio", path: "/#home" },
+  experience: { name: "Experiencia", path: "/#experience" },
+  projects: { name: "Proyectos", path: "/#projects" },
 };
 
 // Common base classes
@@ -154,7 +154,7 @@ const baseClasses = {
     role="group"
     aria-label="Social Media Links"
   >
-    <Social link="https://github.com/EFEELE" iconName="github" />
-    <Social link="https://www.linkedin.com/in/efeele/" iconName="linkedin" />
+    <Social link="https://github.com/pespinosadev/seo" iconName="github" />
+    <Social link="https://www.linkedin.com/in/pablo-espinosa-mart%C3%ADnez-seo-tecnico" iconName="linkedin" />
   </div>
 </nav>
